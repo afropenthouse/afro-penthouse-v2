@@ -2,6 +2,7 @@ import React from 'react';
 import about1 from '../../../public/about1.svg'
 import about2 from '../../../public/about-2.svg'
 import Image from 'next/image';
+import { MdArrowOutward } from 'react-icons/md';
 
 const AboutHero = () => {
   return (
@@ -21,7 +22,7 @@ const AboutHero = () => {
          
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-white text-black rounded-full px-6 py-3 font-medium flex items-center justify-center">
-              Get In Touch <span className="ml-2">↗</span>
+              Get In Touch <span className="ml-2"><MdArrowOutward /></span>
             </button>
             <button className="border border-white text-white rounded-full px-6 py-3 font-medium flex items-center justify-center">
               <span className="mr-2">

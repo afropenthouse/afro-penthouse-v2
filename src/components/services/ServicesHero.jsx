@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { MdArrowOutward } from 'react-icons/md';
 
 const ServicesHero = () => {
   return (
@@ -28,7 +29,7 @@ const ServicesHero = () => {
         {/* Buttons Section */}
         <div className="flex flex-col sm:flex-row gap-4 mb-12">
           <button className="bg-white text-black rounded-full px-6 py-3 text-sm font-medium flex items-center justify-center">
-            Get In Touch <span className="ml-2">↗</span>
+            Get In Touch <span className="ml-2"><MdArrowOutward /></span>
           </button>
           <button className="border border-white text-white rounded-full px-6 py-3 text-sm font-medium flex items-center justify-center">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">

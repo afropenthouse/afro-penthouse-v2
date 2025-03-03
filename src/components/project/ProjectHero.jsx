@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdArrowOutward } from 'react-icons/md';
 
 const ProjectHero = () => {
   return (
@@ -14,7 +15,7 @@ const ProjectHero = () => {
             
             <div className="mt-12 flex space-x-4">
               <button className="bg-white text-black rounded-full px-6 py-3 text-sm font-medium flex items-center">
-                Get In Touch <span className="ml-2">↗</span>
+                Get In Touch <span className="ml-2"><MdArrowOutward /></span>
               </button>
               <button className="border border-white text-white rounded-full px-6 py-3 text-sm font-medium flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">

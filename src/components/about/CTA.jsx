@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdArrowOutward } from 'react-icons/md';
 
 const CTAComponent = () => {
   return (
@@ -15,7 +16,7 @@ const CTAComponent = () => {
             href="#" 
             className="inline-flex items-center px-6 py-3 bg-black text-white rounded-full text-sm font-medium"
           >
-            Get a quote <span className="ml-2">→</span>
+            Get a quote <span className="ml-2"><MdArrowOutward /></span>
           </a>
           <a 
             href="#" 

@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { MdArrowOutward } from 'react-icons/md';
 
 const MissionSection = () => {
   const fadeIn = {
@@ -64,7 +65,7 @@ const MissionSection = () => {
               whileHover="hover"
               whileTap="tap"
             >
-              Get In Touch <span className="ml-2">↗</span>
+              Get In Touch <span className="ml-2"><MdArrowOutward /></span>
             </motion.button>
           </motion.div>
           

@@ -19,18 +19,62 @@ const PortfolioCard = () => {
     },
     {
       id: 2,
-      name: 'Bridge Waters G.S.',
-      description: 'Vbuddy is an online application that helps you stick to your budget by suggesting affordable places to go on dates, family & group hangouts, offering exclusive discounts when you pay via the app.',
+      name: 'Vibeazy',
+      description: 'Vibeazy is an online application that helps you stick to your budget by suggesting affordable places to go on dates, family & group hangouts, offering exclusive discounts when you pay via the app.',
       tagline: 'Leading with Integrity in Oil & Gas Solutions',
-      client: 'Bridgewatersgs',
-      service: 'Website Design',
-      website: 'bridgewatersgs.com',
-      websiteUrl: 'https://bridgewatersgs.com',
+      client: 'Afro-penthouse',
+      service: ' Mobile App',
+      website: 'vibeazy.com',
+      websiteUrl: 'vibeazy.com',
       socialLinks: [
         { id: 'instagram', url: 'https://instagram.com/bridgewatersgs' },
         { id: 'twitter', url: 'https://twitter.com/bridgewatersgs' }
       ],
       imageUrl: '/vibe.png'
+    },
+    {
+      id: 3,
+      name: 'MendAfrica',
+      description: 'MendAfrica is an online platform that partners with credible, vetted individuals and organizations to highlight projects that positively impact Africa. Discover, give and get updates on these projects.',
+      tagline: 'Leading with Integrity in Oil & Gas Solutions',
+      client: 'Afro-penthouse',
+      service: 'Mobile/Web Design',
+      website: 'mendafrica.com',
+      websiteUrl: 'mendafrica.com',
+      socialLinks: [
+        { id: 'instagram', url: 'https://instagram.com/bridgewatersgs' },
+        { id: 'twitter', url: 'https://twitter.com/bridgewatersgs' }
+      ],
+      imageUrl: 'mend.svg'
+    },
+    {
+      id: 4,
+      name: 'PurpleHCM',
+      description: 'PurpleHCM is an innovative HR technology solution designed to streamline and optimize human capital management for businesses of all sizes. Developed by RecodeApps, PurpleHCM offers a comprehensive suite of tools for talent acquisition, payroll processing, performance management, employee engagement, and workforce analytics.',
+      tagline: 'Leading with Integrity in Oil & Gas Solutions',
+      client: 'PurpleHCM',
+      service: 'Mobile/Web Design',
+      website: 'Purplehcm.com',
+      websiteUrl: 'Purplehcm.com',
+      socialLinks: [
+        { id: 'instagram', url: 'https://instagram.com/bridgewatersgs' },
+        { id: 'twitter', url: 'https://twitter.com/bridgewatersgs' }
+      ],
+      imageUrl: 'purple.svg'
+    },
+    {
+      id: 5,
+      name: 'Bridge water',
+      description: 'Bridgewaters Global Services Limited delivers a comprehensive suite of civil construction and minor mechanical works, combining precision and speed to meet the highest standards.',
+      client: 'Bridgewatersgs',
+      service: 'Mobile/Web Design',
+      website: 'bridgewatersgs.com',
+      websiteUrl: 'Purplehcm.com',
+      socialLinks: [
+        { id: 'instagram', url: 'https://instagram.com/bridgewatersgs' },
+        { id: 'twitter', url: 'https://twitter.com/bridgewatersgs' }
+      ],
+      imageUrl: 'bridge.svg'
     },
   ];
 
@@ -46,7 +90,7 @@ const PortfolioCard = () => {
                 <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover" />
                 
                 {/* Overlay with description (visible on hover) */}
-                <div className="absolute inset-0 bg-gray-900 bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 flex flex-col gap-4">
+                <div className="absolute inset-0 bg-gray-900 bg-opacity-85 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 flex flex-col gap-4">
                   <p className="text-sm md:text-base text-white max-w-[35rem] pt-10">
                     {item.description}
                   </p>

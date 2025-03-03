@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { MdArrowOutward } from 'react-icons/md';
 
 const StatsSection = () => {
   const fadeInUp = {
@@ -121,7 +122,7 @@ const StatsSection = () => {
                 whileHover="hover"
                 whileTap="tap"
               >
-                Get In Touch <span className="ml-2">↗</span>
+                Get In Touch <span className="ml-2"><MdArrowOutward /></span>
               </motion.button>
               <motion.button 
                 className="border border-gray-300 bg-white text-black py-3 px-6 rounded-full flex items-center justify-center font-medium"

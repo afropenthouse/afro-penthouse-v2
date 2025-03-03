@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +30,9 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo - white circle */}
         <div className="flex items-center gap-16">
-          <div className="w-8 h-8 bg-white rounded-full mr-2"></div>
+         <div>
+          <Image src="./logo.svg" alt="" width={200} height={200}/>
+         </div>
           <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link 

@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { MdArrowOutward } from "react-icons/md";
 
 const HomeHero = () => {
   // Testimonial data
@@ -192,7 +193,7 @@ const HomeHero = () => {
               initial={{ x: 0 }}
               whileHover={{ x: 5 }}
               transition={{ duration: 0.2 }}
-            >↗</motion.span>
+            ><MdArrowOutward /></motion.span>
           </motion.button>
           <motion.button 
             className="border border-white text-white py-3 px-6 rounded-full flex items-center justify-center font-medium"

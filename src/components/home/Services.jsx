@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { MdArrowOutward } from 'react-icons/md';
 
 const ServicesSection = () => {
   const fadeIn = {
@@ -60,7 +61,7 @@ const ServicesSection = () => {
               whileHover="hover"
               whileTap="tap"
             >
-              Get a qoute <span className="ml-2">↗</span>
+              Get a qoute <span className="ml-2"><MdArrowOutward /></span>
             </motion.button>
             <motion.button 
               className="border border-gray-300 bg-white text-black py-3 px-6 rounded-full flex items-center justify-center font-medium"
