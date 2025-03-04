@@ -133,6 +133,7 @@ const Navbar = () => {
                   <Link 
                     href={link.href}
                     className={`font-medium block ${isActive(link.href) ? 'text-white' : 'text-gray-400 hover:text-white'}`}
+                    onClick={toggleMenu} 
                   >
                     <div className="flex items-center">
                       {link.label}
