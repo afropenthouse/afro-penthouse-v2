@@ -15,7 +15,7 @@ const ICTServicesComponent = () => {
             Our goal is not only to provide excellent ICT services but to act as a trusted partner in driving the technological advancement of our clients, ensuring that they stay competitive and future-ready in an ever-changing digital landscape.
           </p>
           <button className="bg-black text-white px-4 py-2 rounded-full flex items-center">
-            Get In Touch
+          <a href="https://wa.me/2348034616759">Get in touch</a>
             <MdArrowOutward />
           </button>
         </div>

@@ -17,17 +17,31 @@ const TeamMembersComponent = () => {
       position: "Group Creative Manager",
       image: "/david.svg",
       bio: "Leads the creative direction, branding, and design strategies across multiple projects."
+    },
+    {
+      id: 3,
+      name: "Okoro Sunday",
+      position: "CEO wyrelight tech.",
+      image: "/sunny.svg",
+      bio: "Oversees the vision and lifecycle of a digital product across teams to drive development."
     }
   ];
 
   // Array of staff members
   const staffMembers = [
     {
-      id: 3,
-      name: "Gold",
+      id: 1,
+      name: "Okiemute Gold",
       position: "Frontend Developer",
       image: "/gold.svg",
       bio: "Builds and optimizes user interfaces for web and mobile applications."
+    },
+    {
+      id: 2,
+      name: "Okorie Chisom",
+      position: "Product UI/UX Designer",
+      image: "/gold.svg",
+      bio: "Creates intuitive and visually appealing digital experiences to enhance usability."
     }
   ];
 
@@ -85,7 +99,7 @@ const TeamMembersComponent = () => {
           {renderTeamMemberCards(staffMembers)}
           
           {/* Recruitment section - always the last item in the grid */}
-          <div className="bg-gray-900 text-white flex flex-col justify-center p-8">
+          <div className="bg-[#0C0C0C] text-white flex flex-col justify-center p-8">
             <h2 className="text-3xl font-bold text-center mb-6">Want to be part of our team?</h2>
             <p className="text-center mb-8">
               Join a group of passionate, talented professionals who thrive on collaboration, innovation, and making an impact. Let's build something great together.

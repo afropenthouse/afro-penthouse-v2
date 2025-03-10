@@ -8,7 +8,7 @@ const HomeHero = () => {
   const testimonials = [
     {
       id: 1,
-      text: "From start to finish, the team at Afro Penthouse was professional, responsive, and truly dedicated to bringing our ideas to life, exceeding our expectations.",
+      text: "Our solutions are crafted to enhance efficiency and productivity. The team at Afro Penthouse is professional, responsive, and committed to realising our ideas while consistently exceeding expectations.",
       author: "GRACIE BEN",
       company: "Primus Startups"
     },
@@ -188,7 +188,7 @@ const HomeHero = () => {
             whileHover="hover"
             whileTap="tap"
           >
-            Get In Touch <motion.span 
+            <a href="https://wa.me/2348034616759">Get In Touch</a> <motion.span 
               className="ml-2"
               initial={{ x: 0 }}
               whileHover={{ x: 5 }}
@@ -212,7 +212,7 @@ const HomeHero = () => {
                 repeat: Infinity, 
                 repeatDelay: 3 
               }}
-            >🎧</motion.span> Talk to our team
+            >🎧</motion.span> <a href="https://wa.me/2348034616759">Talk to our team</a>
           </motion.button>
         </motion.div>
       </motion.div>

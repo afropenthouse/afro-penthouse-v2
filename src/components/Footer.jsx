@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-lg font-medium mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li><a href="tel:+2342014536157" className="text-sm text-gray-400 hover:text-white">+234 201 453 6157</a></li>
+              <li><a href="tel:+2348034616759" className="text-sm text-gray-400 hover:text-white">08034616759.</a></li>
               <li><a href="#" className="text-sm text-gray-400 hover:text-white">HQ Location</a></li>
               <li><a href="#" className="text-sm text-gray-400 hover:text-white">Message Board</a></li>
               <li><a href="#" className="text-sm text-gray-400 hover:text-white">Customer Support</a></li>

@@ -65,7 +65,7 @@ const MissionSection = () => {
               whileHover="hover"
               whileTap="tap"
             >
-              Get In Touch <span className="ml-2"><MdArrowOutward /></span>
+               <a href="https://wa.me/2348034616759">Get in touch</a> <span className="ml-2"><MdArrowOutward /></span>
             </motion.button>
           </motion.div>
           

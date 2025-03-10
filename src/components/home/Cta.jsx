@@ -56,7 +56,7 @@ const CTASection = () => {
               whileHover="hover"
               whileTap="tap"
             >
-              Get a qoute <span className="ml-2"><MdArrowOutward /></span>
+               <a href="https://wa.me/2348034616759">Get a quote</a> <span className="ml-2"><MdArrowOutward /></span>
             </motion.button>
             <motion.button 
               className="border border-gray-300 bg-white text-black py-3 px-6 rounded-full flex items-center justify-center font-medium"

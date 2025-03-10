@@ -16,10 +16,10 @@ const CTAComponent = () => {
             href="#" 
             className="inline-flex items-center px-6 py-3 bg-black text-white rounded-full text-sm font-medium"
           >
-            Get a quote <span className="ml-2"><MdArrowOutward /></span>
+            <a href="https://wa.me/2348034616759">Get a quote</a> <span className="ml-2"><MdArrowOutward /></span>
           </a>
           <a 
-            href="#" 
+            href="/services" 
             className="inline-flex items-center px-6 py-3 bg-white text-black border border-gray-200 rounded-full text-sm font-medium"
           >
             Our Services

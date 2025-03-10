@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { MdArrowOutward } from 'react-icons/md';
+import Link from 'next/link';
 
 const ServicesSection = () => {
   const fadeIn = {
@@ -61,7 +62,7 @@ const ServicesSection = () => {
               whileHover="hover"
               whileTap="tap"
             >
-              Get a qoute <span className="ml-2"><MdArrowOutward /></span>
+              <a href="https://wa.me/2348034616759">Get a quote</a> <span className="ml-2"><MdArrowOutward /></span>
             </motion.button>
             <motion.button 
               className="border border-gray-300 bg-white text-black py-3 px-6 rounded-full flex items-center justify-center font-medium"
@@ -70,7 +71,7 @@ const ServicesSection = () => {
               whileHover="hover"
               whileTap="tap"
             >
-              Browse all services
+              <Link href="/services">Browse all services</Link>
             </motion.button>
           </div>
         </div>

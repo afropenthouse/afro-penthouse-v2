@@ -122,7 +122,7 @@ const StatsSection = () => {
                 whileHover="hover"
                 whileTap="tap"
               >
-                Get In Touch <span className="ml-2"><MdArrowOutward /></span>
+               <a href="https://wa.me/2348034616759">Get In Touch</a><span className="ml-2"><MdArrowOutward /></span>
               </motion.button>
               <motion.button 
                 className="border border-gray-300 bg-white text-black py-3 px-6 rounded-full flex items-center justify-center font-medium"
@@ -130,7 +130,7 @@ const StatsSection = () => {
                 whileHover="hover"
                 whileTap="tap"
               >
-                <span className="mr-2">🎧</span> Talk to our team
+                <span className="mr-2">🎧</span> <a href="https://wa.me/2348034616759">Talk to our team</a>
               </motion.button>
             </div>
           </motion.div>
