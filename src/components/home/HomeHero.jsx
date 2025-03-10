@@ -9,15 +9,15 @@ const HomeHero = () => {
     {
       id: 1,
       text: "Our solutions are crafted to enhance efficiency and productivity. The team at Afro Penthouse is professional, responsive, and committed to realising our ideas while consistently exceeding expectations.",
-      author: "GRACIE BEN",
-      company: "Primus Startups"
+      author: "Victor",
+      company: "Recode Technologies"
     },
    
     {
       id: 3,
       text: "Working with this team was seamless. They understood our complex requirements and delivered a solution that not only met but exceeded our technical specifications.",
-      author: "SARAH JOHNSON",
-      company: "Elevate Systems"
+      author: "Mr Simeone",
+      company: "Gigital Energy"
     },
     {
       id: 4,
