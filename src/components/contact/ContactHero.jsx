@@ -111,7 +111,7 @@ const ContactForm = () => {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleChange}
-                  placeholder="Enter your full name"
+                  // placeholder="Enter your full name"
                   className="w-full bg-transparent border-b border-gray-600 py-2 px-1 focus:outline-none focus:border-white text-white placeholder:text-[#FFFFFFCC]"
                 />
               </motion.div>
@@ -123,7 +123,7 @@ const ContactForm = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="Enter your email address"
+                  // placeholder="Enter your email address"
                   className="w-full bg-transparent border-b border-gray-600 py-2 px-1 focus:outline-none focus:border-white text-white placeholder:text-[#FFFFFFCC]"
                 />
               </motion.div>
@@ -137,7 +137,7 @@ const ContactForm = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="Enter your phone number"
+                  // placeholder="Enter your phone number"
                   className="w-full bg-transparent border-b border-gray-600 py-2 px-1 focus:outline-none focus:border-white text-white placeholder:text-[#FFFFFFCC]"
                 />
               </motion.div>
@@ -149,7 +149,7 @@ const ContactForm = () => {
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  placeholder="Enter the service you're interested in"
+                  // placeholder="Enter the service you're interested in"
                   className="w-full bg-transparent border-b border-gray-600 py-2 px-1 focus:outline-none focus:border-white text-white placeholder:text-[#FFFFFFCC]"
                 />
               </motion.div>
@@ -161,7 +161,7 @@ const ContactForm = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Tell us more about your project"
+                // placeholder="Tell us more about your project"
                 rows={3}
                 className="w-full bg-transparent border-b border-gray-600 py-2 px-1 focus:outline-none focus:border-white text-white placeholder:text-[#FFFFFFCC] resize-none"
               />
