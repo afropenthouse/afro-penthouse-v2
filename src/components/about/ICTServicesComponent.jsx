@@ -40,7 +40,7 @@ const ICTServicesComponent = () => {
         <div className="w-full md:w-1/2 p-6 md:p-12 lg:p-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our vision is to drive innovation through ICT solutions</h2>
           <p className="text-gray-700 mb-6">
-            Our aim is to be a respected and recognized ICT company, serving as the IT partner of choice for large enterprises and small to medium-sized businesses (SMBs) offering services that are tailored to their unique needs and challenges.
+            We aim to become a respected and recognised ICT company, trusted by large enterprises and SMBs as their preferred IT partner. We strive to deliver tailored solutions that address their unique needs and challenges
           </p>
           <button className="border border-gray-300 text-black px-4 py-2 rounded-full flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

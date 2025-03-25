@@ -8,20 +8,20 @@ const HomeHero = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Our solutions are crafted to enhance efficiency and productivity. The team at Afro Penthouse is professional, responsive, and committed to realising our ideas while consistently exceeding expectations.",
+      text: "Our solutions are designed to optimize efficiency and boost productivity. At Afro Penthouse, our team is professional, responsive, and dedicated to bringing our ideas to life while consistently surpassing expectations.",
       author: "Victor",
       company: "Recode Technologies"
     },
    
     {
       id: 3,
-      text: "Working with this team was seamless. They understood our complex requirements and delivered a solution that not only met but exceeded our technical specifications.",
-      author: "Mr Simeone",
-      company: "Gigital Energy"
+      text: "Collaborating with this team was effortless. They grasped our complex requirements and provided a solution that not only met but surpassed our technical expectations.",
+      author: "Mr Simeon",
+      company: "Digital Energy"
     },
     {
       id: 4,
-      text: "Our efficiency has increased by 40% since implementing their IT solutions. Their ongoing support and quick response times make them a valuable partner.",
+      text: "Since implementing their IT solutions, our efficiency has increased by 40%. Their prompt support and responsiveness make them an invaluable partner.",
       author: "DAVID RODRIGUEZ",
       company: "Momentum Enterprises"
     },

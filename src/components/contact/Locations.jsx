@@ -60,7 +60,7 @@ const OfficeLocations = () => {
                 className="text-2xl font-bold text-gray-900"
                 variants={fadeIn}
               >
-                Head Office
+                Our Offices
               </motion.h3>
               
               <motion.p 
@@ -68,6 +68,12 @@ const OfficeLocations = () => {
                 variants={fadeIn}
               >
                 Tapa House 3/5, Imam Dauda Street, Off Eric Moore Road, Surulere, Lagos State, Nigeria
+              </motion.p>
+              <motion.p 
+                className="text-gray-700"
+                variants={fadeIn}
+              >
+                Chevron Office: House 8, Dr. Chimezie Street, Chevy View Estate, along Chevron drive, off Lekki- Epe expressway, Lagos.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 border-t border-gray-200">
@@ -116,7 +122,8 @@ const OfficeLocations = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 border-t border-gray-200">
                 <motion.div variants={fadeIn}>
                   <h4 className="text-sm font-medium text-gray-500 mb-1">Phone number</h4>
-                  <p className="text-gray-700">+234 7086078838, +234 7077525861</p>
+                  <p className="text-gray-700">+2347086078838</p>
+                  <p className="text-gray-700">+2347077525861</p>
                 </motion.div>
                 
                 <motion.div variants={fadeIn}>

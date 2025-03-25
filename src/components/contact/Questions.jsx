@@ -22,7 +22,7 @@ const FAQSection = () => {
     {
       id: '02',
       question: 'Does Afro-penthouse have a project minimum?',
-      answer: 'At Afro-Penthouse, we don not believe in one-size-fits-all solutions. We tailor our services to meet the unique needs of each client, so we do not have a strict project minimum. Whether you are working on a small-scale project or something more extensive, we are here to bring your vision to life.'
+      answer: 'At Afro-Penthouse, we believe every client is unique, which is why we don’t offer one-size-fits-all solutions. Our services are customized to fit your specific needs, with no strict project minimum. Whether it’s a small-scale initiative or a large-scale endeavour, we’re here to turn your vision into reality.'
     },
     {
       id: '03',
