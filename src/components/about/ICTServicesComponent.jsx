@@ -15,14 +15,14 @@ const ICTServicesComponent = () => {
             Our goal is not only to provide excellent ICT services but to act as a trusted partner in driving the technological advancement of our clients, ensuring that they stay competitive and future-ready in an ever-changing digital landscape.
           </p>
           <button className="bg-black text-white px-4 py-2 rounded-full flex items-center">
-          <a href="https://wa.me/2348034616759">Get in touch</a>
+            <a href="https://wa.me/2348034616759" target="_blank" rel="noopener noreferrer">Get in touch</a>
             <MdArrowOutward />
           </button>
         </div>
         <div className="w-full md:w-1/2">
-          <Image 
-            src={about3} 
-            alt="IT professionals working with code on multiple screens" 
+          <Image
+            src={about3}
+            alt="IT professionals working with code on multiple screens"
             className="w-full h-auto"
           />
         </div>
@@ -31,9 +31,9 @@ const ICTServicesComponent = () => {
       {/* Vision Section */}
       <div className="flex flex-col-reverse md:flex-row items-center">
         <div className="w-full md:w-1/2">
-          <Image 
-            src={about4} 
-            alt="IT professionals working with code on multiple screens" 
+          <Image
+            src={about4}
+            alt="IT professionals working with code on multiple screens"
             className="w-full h-auto"
           />
         </div>

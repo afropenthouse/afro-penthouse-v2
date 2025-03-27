@@ -88,13 +88,13 @@ const PortfolioCard = () => {
               {/* Image */}
               <div className="w-full h-64 sm:h-80 bg-amber-600 overflow-hidden">
                 <img src={item.imageUrl} alt={item.name} className="w-full h-full object-cover" />
-                
+
                 {/* Overlay with description (visible on hover) */}
                 <div className="absolute inset-0 bg-gray-900 bg-opacity-85 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 flex flex-col gap-4">
                   <p className="text-sm md:text-base text-white max-w-[35rem] pt-10">
                     {item.description}
                   </p>
-                  
+
                   {/* Web and Share icons */}
                   <div className="flex space-x-2 mt-4">
                     <button className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center">
@@ -118,7 +118,7 @@ const PortfolioCard = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Project details (always visible) with responsive layout */}
           <div className="flex flex-col md:flex-row mt-6">
             <div className="w-full md:w-1/3 mb-4 md:mb-0">
@@ -135,7 +135,7 @@ const PortfolioCard = () => {
               </div>
               <div>
                 <p className="text-gray-500 text-sm mb-1">Website</p>
-                <a href={item.websiteUrl} className="text-black hover:underline">{item.website}</a>
+                <a href={item.websiteUrl} target="_blank" rel="noopener noreferrer" className="text-black hover:underline">{item.website}</a>
               </div>
             </div>
           </div>
