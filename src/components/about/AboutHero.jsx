@@ -1,6 +1,5 @@
 import React from 'react';
 import about1 from '../../../public/about1.svg'
-import about2 from '../../../public/about-2.svg'
 import Image from 'next/image';
 import { MdArrowOutward } from 'react-icons/md';
 
@@ -51,9 +50,11 @@ const AboutHero = () => {
           {/* Second image - wider and shorter */}
           <div className="w-full md:w-2/3 h-[28rem] md:h-[28rem] bg-gray-800 rounded-lg overflow-hidden">
             <Image
-              src={about2}
+              src={`/office.webp`}
               alt="Developers working in modern office"
               className="w-full h-full object-cover"
+              width={500}
+              height={500}
             />
           </div>
         </div>

@@ -40,7 +40,7 @@ const TeamMembersComponent = () => {
       id: 2,
       name: "Okorie Chisom",
       position: "Product UI/UX Designer",
-      image: "/gold.svg",
+      image: "/chisom.svg",
       bio: "Creates intuitive and visually appealing digital experiences to enhance usability."
     }
   ];
